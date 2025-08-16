@@ -20,7 +20,7 @@ node_modules
 /dist
 
 # Environment files
-.env*
+.env
 
 # IDE and OS specific
 .DS_Store

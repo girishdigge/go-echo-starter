@@ -16,17 +16,17 @@ require (
 	github.com/labstack/echo/v4 v4.13.4
 	github.com/newrelic/go-agent/v3 v3.40.1
 	github.com/newrelic/go-agent/v3/integrations/logcontext-v2/zerologWriter v1.0.4
-	github.com/newrelic/go-agent/v3/integrations/nrecho-v4 v1.1.5
+	github.com/newrelic/go-agent/v3/integrations/nrecho-v4 v1.1.4
 	github.com/newrelic/go-agent/v3/integrations/nrpgx5 v1.3.1
 	github.com/newrelic/go-agent/v3/integrations/nrpkgerrors v1.1.0
-	github.com/newrelic/go-agent/v3/integrations/nrredis-v9 v1.1.2
+	github.com/newrelic/go-agent/v3/integrations/nrredis-v9 v1.1.1
 	github.com/pkg/errors v0.9.1
 	github.com/redis/go-redis/v9 v9.7.0
-	github.com/resend/resend-go/v2 v2.23.0
+	github.com/resend/resend-go/v2 v2.21.0
 	github.com/rs/zerolog v1.34.0
 	github.com/stretchr/testify v1.10.0
 	github.com/testcontainers/testcontainers-go v0.38.0
-	golang.org/x/text v0.27.0
+	golang.org/x/text v0.25.0
 	golang.org/x/time v0.11.0
 )
 
@@ -105,13 +105,13 @@ require (
 	go.opentelemetry.io/otel/metric v1.37.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.37.0 // indirect
 	go.opentelemetry.io/otel/trace v1.37.0 // indirect
-	go.opentelemetry.io/proto/otlp v1.7.1 // indirect
-	golang.org/x/crypto v0.40.0 // indirect
-	golang.org/x/net v0.42.0 // indirect
-	golang.org/x/sync v0.16.0 // indirect
-	golang.org/x/sys v0.34.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250728155136-f173205681a0 // indirect
-	google.golang.org/grpc v1.74.2 // indirect
+	go.opentelemetry.io/proto/otlp v1.7.0 // indirect
+	golang.org/x/crypto v0.38.0 // indirect
+	golang.org/x/net v0.40.0 // indirect
+	golang.org/x/sync v0.14.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250528174236-200df99c418a // indirect
+	google.golang.org/grpc v1.72.2 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
