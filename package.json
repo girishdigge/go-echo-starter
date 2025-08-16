@@ -1,12 +1,6 @@
 {
-  "name": "go-echo-starter",
+  "name": "boilerplate",
   "version": "1.0.0",
-  "description": "go boilerplate",
-  "keywords": [
-    "go"
-  ],
-  "license": "ISC",
-  "author": "Girish Digge",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -17,15 +11,16 @@
     "typecheck": "turbo run typecheck",
     "clean": "turbo run clean && rimraf node_modules"
   },
-  "packageManager": "bun@1.2.19",
+  "packageManager": "bun@1.2.13",
   "engines": {
-    "node": ">=24"
+    "node": ">=22"
   },
   "workspaces": [
+    "apps/*",
     "packages/*"
   ],
   "devDependencies": {
     "turbo": "^2.5.5",
-    "typescript": "^5.9.2"
+    "typescript": "^5.8.3"
   }
 }
